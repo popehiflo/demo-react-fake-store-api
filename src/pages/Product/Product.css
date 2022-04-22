@@ -1,0 +1,36 @@
+.product {
+  padding-top: 8rem;
+}
+
+.product__row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.product__image {
+  flex: 1 1 40rem;
+}
+
+.product__image--img {
+  width: 100%;
+}
+
+.product__data {
+  flex: 1 1 50rem;
+}
+
+.data__title {
+  font-size: 4rem;
+  color: var(--secondary-color);
+  text-shadow: var(--text-shadow);
+  line-height: 1.8rem;
+}
+
+.data__description {
+  font-size: 1.5rem;
+  color: var(--light-color);
+  line-height: 1.8rem;
+  padding: 1rem 0;
+}

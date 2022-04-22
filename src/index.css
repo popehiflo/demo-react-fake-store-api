@@ -32,3 +32,62 @@ html {
   scroll-padding-top: 7rem;
   scroll-behavior: smooth;
 }
+
+section {
+  padding: 2rem 9%;
+}
+
+section:nth-child(even) {
+  background: var(--background-color);
+}
+
+.section-heading {
+  text-align: center;
+  padding-bottom: 2rem;
+  text-shadow: var(--text-shadow);
+  text-transform: capitalize;
+  color: var(--primary-color);
+  font-size: 5rem;
+  letter-spacing: 0.4rem;
+}
+
+.section-heading span {
+  text-transform: lowercase;
+  color: var(--secondary-color);
+  font-size: 4rem;
+  letter-spacing: 0.2rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem;
+  padding-left: 1rem;
+  padding-right: 0;
+  border: var(--primary-border);
+  border-radius: 2.48rem;
+  color: var(--white);
+  font-size: 1.7rem;
+  cursor: pointer;
+  background-color: var(--primary-color);
+}
+
+.btn-primary span {
+  padding: 0.7rem 1rem;
+  border-radius: 2.48rem;
+  background: var(--white);
+  color: var(--primary-color);
+  margin-left: 0.5rem;
+}
+
+.btn-primary:hover {
+  background: var(--white);
+  color: var(--primary-color);
+  box-shadow: var(--primary-box-shadow);
+}
+
+.btn-primary:hover span {
+  color: var(--white);
+  background: var(--primary-color);
+  margin-left: 1rem;
+}

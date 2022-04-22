@@ -22,7 +22,7 @@ const Header = () => {
         <ul className="nav__menu" ref={navMenu}>
           <li className="nav__menu-item">
             <NavLink
-              to="/home"
+              to="/#products"
               className={
                 ({ isActive }) => (isActive ? 'nav__menu-link nav-link nav__menu-link--active' : 'nav__menu-link nav-link')
               }
@@ -36,12 +36,12 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="nav__menu-item">
-            <NavLink to="/see-more" className={({ isActive }) => (isActive ? 'nav__menu-link nav-link nav__menu-link--active' : 'nav__menu-link nav-link')}>
+            <NavLink to="/about#see-more" className={({ isActive }) => (isActive ? 'nav__menu-link nav-link nav__menu-link--active' : 'nav__menu-link nav-link')}>
               #See more...
             </NavLink>
           </li>
           <li className="nav__menu-item">
-            <NavLink to="/contact" className={({ isActive }) => (isActive ? 'nav__menu-link nav-link nav__menu-link--active' : 'nav__menu-link nav-link')}>
+            <NavLink to="/about#contact" className={({ isActive }) => (isActive ? 'nav__menu-link nav-link nav__menu-link--active' : 'nav__menu-link nav-link')}>
               Contacto
             </NavLink>
           </li>
